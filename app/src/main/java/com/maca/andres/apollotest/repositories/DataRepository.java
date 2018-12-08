@@ -40,7 +40,7 @@ public class DataRepository  {
         apolloClient.mutate(rootMutation).enqueue(new Callback<Data>() {
             @Override
             public void onResponse(@NotNull Response<Data> response) {
-                Log.d(TAG,"Response: "+response.toString());
+                Log.d(TAG,"Response: "+response.data().toString());
             }
 
             @Override
