@@ -31,7 +31,7 @@ import okhttp3.OkHttpClient;
 @Module(includes = ViewModelModule.class)
 public class AppModule{
     private static final String TAG = AppModule.class.getSimpleName();
-    private static final String BASE_URL = "https://api.githunt.com/graphql";
+    private static final String BASE_URL = "http://192.168.0.14:8080/graphql";
     private static final String SUBSCRIPTION_BASE_URL = "wss://api.githunt.com/subscriptions";
     private static final String SQL_CACHE_NAME = "githuntdb";
 

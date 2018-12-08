@@ -1,0 +1,4 @@
+mutation RootMutation($cadena: String!){
+    mutateNumber(cadena: $cadena)
+
+}
